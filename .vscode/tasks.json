@@ -11,24 +11,16 @@
         {
             "label": "Git Update",
             "type": "shell",
-            "command": "git add . && git commit -m \"${input:commitMessage}\" && git push -u origin master",
-            // "args": [
-            //     "-c",
-            //     "git add . && git commit -m \"${input:commitMessage}\" && git push -u origin master"
-            // ],
+            "command": "cmd",
+            "args": [
+                "/c",
+                "git add . && git commit -m \"Auto\" && git push -u origin master"
+            ],
             "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
-        }
-    ],
-        "inputs": [
-        {
-            "id": "commitMessage",
-            "type": "promptString",
-            "description": "Enter your commit message:",
-            "default": "Auto commit"
         }
     ]
 }
