@@ -1,3 +1,5 @@
-.green-border{
-    border: 5px solid green;
+img {
+    border: 10px dashed darkgreen; /* 10px width, dashed style, dark green color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px; /* Add space between the image and the border */
 }
