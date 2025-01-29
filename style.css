@@ -23,7 +23,7 @@
     position: absolute;
     top: 20px; /* Adjust as needed */
     left: 20px; /* Adjust as needed */
-    width: 100px; /* Set the size of the image */
+    width: 200px; /* Set the size of the image */
     height: auto; /* Maintain aspect ratio */
     z-index: 10; /* Ensure the image is above the video */
     border: 2px solid rgb(171, 8, 95); /* Optional: Add a border */
