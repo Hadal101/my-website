@@ -29,3 +29,18 @@
     border: 2px solid rgb(171, 8, 95); /* Optional: Add a border */
     border-radius: 10px; /* Optional: Add rounded corners */
 }
+.overlay-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a shadow */
+}
+
+.interactive-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a shadow */
+}
+.interactive-image img {
+    display: block;
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 10px; /* Match the container's rounded corners */
+}
